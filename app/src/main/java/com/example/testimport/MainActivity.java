@@ -13,7 +13,7 @@ import com.huanghaibin_dev.imagepicker.utils.ImageLoaderListener;
 public class MainActivity extends AppCompatActivity {
 
     RequestManager loader;
-
+//Git
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
