@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         loader = Glide.with(getApplicationContext());
     }
+//有错误，图片无法下载
 
     public void click(View view) {
         ImagePickerActivity.show(this, ImageConfig.Build().loaderListener(new ImageLoaderListener() {
